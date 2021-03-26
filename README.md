@@ -45,4 +45,4 @@ Deploy scripts dag_* in dag folder Airflow
 
 ## Diagram - Estrutura horizontal GCP
 
-![Alt text](imgs/Estrutura horizontal GCP - Boticario.jpeg?raw=true "Diagram")
+![Alt text](diagram/Estrutura horizontal GCP - Boticario.jpeg?raw=true "Diagram")
