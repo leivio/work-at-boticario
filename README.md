@@ -40,5 +40,5 @@ Deploy scripts dag_* in dag folder Airflow
 
 ## Application 
 
-![Alt text](Imgs/airflow.png?raw=true "Airflow")
+![Alt text](Imgs/airflow.PNG?raw=true "Airflow")
 
