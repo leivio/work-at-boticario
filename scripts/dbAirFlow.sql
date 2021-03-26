@@ -1,0 +1,3 @@
+SET search_path = airflow_db;
+CREATE USER airflow_user WITH  PASSWORD '12345678'
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA PUBLIC to airflow_user;

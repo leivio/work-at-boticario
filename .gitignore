@@ -1,0 +1,26 @@
+# Python
+*.pyc
+__pycache__
+
+# Django
+*.sqlite3
+
+# SO
+.DS_Store
+
+# IDEs
+.idea
+
+# Coverage
+htmlcov
+.pytest_cache
+.coverage
+
+# .env
+.development
+.production
+
+# Virtualenv
+.venv
+.idea
+venv
