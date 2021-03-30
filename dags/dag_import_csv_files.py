@@ -4,6 +4,7 @@ import csv
 import psycopg2
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
+from airflow.operators.postgres_operator import PostgresOperator
 from datetime import timedelta, datetime
 
 
@@ -103,6 +104,7 @@ run_csv_to_sql = PythonOperator(
     python_callable=csv_to_sql,
     dag=dag,
 )
+
 
 
 run_create_table >> run_csv_to_sql
